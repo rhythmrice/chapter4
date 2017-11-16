@@ -19,11 +19,22 @@
             lblAverage.Text = dblAverage.ToString("n2")
 
             If dblAverage > DblHIGH_SCORE Then
-                lblMessage.Text = NUM_SCORES must be numeric""
+                lblMessage.Text = "Congratulations! Great Job!"
             End If
 
         Catch ex As Exception
-
+            lblMessage.Text = "Scores must be numeric"
         End Try
+    End Sub
+
+#If dblAverage > dblHIGH_SCORE Then
+    lblMessage.Text = "Congratulations! Great Job!"
+#End If
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        txtScore1.Clear()
+        txtScore2.Clear()
+        txtScore3.Clear()
+        lblAverage.Text = ""
     End Sub
 End Class

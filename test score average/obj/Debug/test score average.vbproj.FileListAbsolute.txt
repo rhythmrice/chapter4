@@ -1,1 +1,11 @@
 C:\Users\rr201621\AppData\Local\Temporary Projects\test score average\bin\Debug\test score average.exe.config
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\bin\Debug\test score average.exe.config
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test_score_average.Form1.resources
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test_score_average.Resources.resources
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test score average.vbproj.GenerateResource.Cache
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\bin\Debug\test score average.exe
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\bin\Debug\test score average.pdb
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\bin\Debug\test score average.xml
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test score average.exe
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test score average.xml
+C:\Users\rr201621\Desktop\Visual Basic\chapter4\test score average\obj\Debug\test score average.pdb
