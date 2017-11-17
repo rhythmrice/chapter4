@@ -35,13 +35,15 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.lblMessage = New System.Windows.Forms.Label()
+        Me.lblGrade = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(77, 48)
+        Me.Label2.Location = New System.Drawing.Point(73, 48)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(47, 13)
         Me.Label2.TabIndex = 1
@@ -50,7 +52,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(77, 98)
+        Me.Label3.Location = New System.Drawing.Point(73, 98)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(47, 13)
         Me.Label3.TabIndex = 2
@@ -59,7 +61,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(77, 165)
+        Me.Label4.Location = New System.Drawing.Point(73, 165)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 13)
         Me.Label4.TabIndex = 3
@@ -89,7 +91,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(77, 231)
+        Me.Label5.Location = New System.Drawing.Point(73, 231)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 13)
         Me.Label5.TabIndex = 7
@@ -132,6 +134,8 @@ Partial Class Form1
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.lblGrade)
         Me.GroupBox1.Controls.Add(Me.txtScore1)
         Me.GroupBox1.Controls.Add(Me.txtScore2)
         Me.GroupBox1.Controls.Add(Me.txtScore3)
@@ -154,6 +158,23 @@ Partial Class Form1
         Me.lblMessage.Name = "lblMessage"
         Me.lblMessage.Size = New System.Drawing.Size(0, 13)
         Me.lblMessage.TabIndex = 13
+        '
+        'lblGrade
+        '
+        Me.lblGrade.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblGrade.Location = New System.Drawing.Point(182, 279)
+        Me.lblGrade.Name = "lblGrade"
+        Me.lblGrade.Size = New System.Drawing.Size(100, 23)
+        Me.lblGrade.TabIndex = 9
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(73, 280)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(36, 13)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "Grade"
         '
         'Form1
         '
@@ -186,5 +207,7 @@ Partial Class Form1
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents lblMessage As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblGrade As System.Windows.Forms.Label
 
 End Class

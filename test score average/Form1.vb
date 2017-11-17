@@ -20,6 +20,21 @@
 
             If dblAverage > DblHIGH_SCORE Then
                 lblMessage.Text = "Congratulations! Great Job!"
+            Else
+                lblMessage.Text = "Keep Trying"
+            End If
+            If dblAverage < 60 Then
+                lblGrade.Text = "F"
+            ElseIf dblAverage < 70 Then
+                lblGrade.Text = "D"
+            ElseIf dblAverage < 80 Then
+                lblGrade.Text = "C"
+            ElseIf dblAverage < 90 Then
+                lblGrade.Text = "B"
+            ElseIf dblAverage < 100 Then
+                lblGrade.Text = "A"
+            Else
+                lblGrade.Text = "Invalid Score"
             End If
 
         Catch ex As Exception
@@ -36,5 +51,7 @@
         txtScore2.Clear()
         txtScore3.Clear()
         lblAverage.Text = ""
+        lblMessage.Text = ""
+        lblGrade.Text = ""
     End Sub
 End Class
